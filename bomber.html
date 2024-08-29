@@ -1,0 +1,50 @@
+<html lang="ru"><head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover" name="viewport">
+    <meta content="#FFFFFF" name="theme-color">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="intlTelInput.min.css" rel="stylesheet">
+
+    <title>db0mb3r 💣</title>
+<style type="text/css" id="operaUserStyle"></style><style type="text/css"></style></head>
+<body>
+
+<span class="stop text-muted"></span>
+
+<div id="block-ui">
+    <div id="loader"><svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-44 a 44,44 0 1 1 0,88 a 44,44 0 1 1 0,-88" stroke="#eee" stroke-width="12" fill-opacity="0"></path><path d="M 50,50 m 0,-44 a 44,44 0 1 1 0,88 a 44,44 0 1 1 0,-88" stroke="#dc3545" stroke-width="12" fill-opacity="0" style="stroke-dasharray: 276.499, 276.499; stroke-dashoffset: 276.499;"></path></svg></div>
+</div>
+
+<main>
+    <h1 class="no-select"><span class="first-letter">d</span>b0mb3r 💣</h1>
+    <p class="lead">Доступно сервисов: <span class="badge badge-pill badge-danger no-select" id="serviceCount">151</span>
+    </p>
+    <form id="main-form">
+        <div class="form-row" style="margin-bottom: 5%">
+            <div class="col">
+                <label for="phone"></label>
+                <div class="iti iti--allow-dropdown iti--separate-dial-code"><div class="iti__flag-container"><div class="iti__selected-flag" role="combobox" aria-owns="country-listbox" tabindex="0" title="Russia (Россия): +7"><div class="iti__flag iti__ru"></div><div class="iti__selected-dial-code">+7</div><div class="iti__arrow"></div></div><ul class="iti__country-list iti__hide" id="country-listbox" aria-expanded="false" role="listbox" aria-activedescendant="iti-item-ru"><li class="iti__country iti__standard" tabindex="-1" id="iti-item-custom" role="option" data-dial-code="" data-country-code="custom"><div class="iti__flag-box"><div class="iti__flag iti__custom"></div></div><span class="iti__country-name">Нет в списке</span><span class="iti__dial-code">+</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-by" role="option" data-dial-code="375" data-country-code="by"><div class="iti__flag-box"><div class="iti__flag iti__by"></div></div><span class="iti__country-name">Belarus (Беларусь)</span><span class="iti__dial-code">+375</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-kz" role="option" data-dial-code="7" data-country-code="kz"><div class="iti__flag-box"><div class="iti__flag iti__kz"></div></div><span class="iti__country-name">Kazakhstan (Казахстан)</span><span class="iti__dial-code">+7</span></li><li class="iti__country iti__standard iti__active" tabindex="-1" id="iti-item-ru" role="option" data-dial-code="7" data-country-code="ru" aria-selected="true"><div class="iti__flag-box"><div class="iti__flag iti__ru"></div></div><span class="iti__country-name">Russia (Россия)</span><span class="iti__dial-code">+7</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-ua" role="option" data-dial-code="380" data-country-code="ua"><div class="iti__flag-box"><div class="iti__flag iti__ua"></div></div><span class="iti__country-name">Ukraine (Україна)</span><span class="iti__dial-code">+380</span></li></ul></div><input class="form-control" id="phone" name="phone" placeholder="912 345-67-89" required="" type="tel" autocomplete="off" data-intl-tel-input-id="0" style="padding-left: 78px;"></div>
+            </div>
+
+            <div class="col">
+                <label for="count"></label>
+                <input class="form-control" id="count" min="1" name="number_of_cycles" placeholder="Количество повторов" required="" type="number">
+            </div>
+        </div>
+
+        <button class="btn btn-danger btn-lg" type="submit">Начать атаку</button>
+    </form>
+</main>
+
+<footer class="mt-auto py-3 footer">
+    <span class="text-muted">Made by <a href="https://github.com/crinny">crinny</a> with</span> <span class="heart" id="heart">❤️</span>
+</footer>
+
+<script src="/static/js/intlTelInput.min.js"></script>
+<script src="/static/js/progressbar.min.js"></script>
+<script src="/static/js/index.js"></script>
+
+</body></html>
